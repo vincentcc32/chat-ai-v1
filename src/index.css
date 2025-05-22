@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #181818;
+  height: 100vh;
+  overflow: hidden;
+}
+
+@layer components {
+  .bg-primary {
+    background-color: #181818;
+  }
+
+  .bg-main {
+    /*  */
+    background-color: #1e1e1e;
+  }
+
+  .bg-chat {
+    background-color: #242629;
+  }
+
+  .bg-active {
+    background-color: #292b2d;
+  }
+
+  .bg-input {
+    background-color: #2d2d2d;
+  }
+
+  .text-primary {
+    color: #E2E2E5;
+  }
+
+  .text-logo {
+    color: #D0E4FF;
+  }
+
+  .bg-logo {
+    background-color: #D0E4FF;
+  }
+}
