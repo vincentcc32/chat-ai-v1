@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
-import { Outlet } from 'react-router-dom'
-import Header from './Header'
-import Sidebar from './Sidebar'
+import { useState } from 'react';
+import { Outlet } from 'react-router-dom';
+import Header from './Header';
+import SideBar from './SideBar';
 
 const RootLayout = () => {
 
@@ -12,7 +12,7 @@ const RootLayout = () => {
       <Header setOpenSideBar={setOpenSideBar}
         openSideBar={openSideBar} />
       <div className='flex h-full'>
-        <Sidebar openSideBar={openSideBar} />
+        <SideBar openSideBar={openSideBar} />
         <Outlet />
       </div>
     </div>
